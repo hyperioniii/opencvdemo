@@ -29,6 +29,11 @@ import java.util.ListIterator;
 public class MainActivity extends AppCompatActivity implements CameraBridgeViewBase.CvCameraViewListener2, View.OnTouchListener {
     private static final String TAG = "OCVSample::Activity";
 
+    /*
+    * https://medium.com/@akshikawijesundara/object-recognition-with-opencv-on-android-6435277ab285
+    * */
+
+
     private Tutorial3View mOpenCvCameraView;
     private List<Camera.Size> mResolutionList;
     private MenuItem[] mEffectMenuItems;
