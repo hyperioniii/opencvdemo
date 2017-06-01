@@ -5,7 +5,7 @@
     android:layout_height="match_parent"
     tools:context="com.example.home.opencvtest.MainActivity">
 
-    <com.example.home.opencvtest.Tutorial3View
+    <com.example.home.opencvtest.fillter.Tutorial3View
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:visibility="gone"
