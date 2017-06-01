@@ -26,6 +26,11 @@ android {
 
 
     sourceSets { main { jni.srcDirs = ['src/main/jni', 'src/main/jni/'] } }
+    externalNativeBuild {
+        ndkBuild {
+            path 'src/main/jni/Application.mk'
+        }
+    }
 }
 
 dependencies {
