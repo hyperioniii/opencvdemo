@@ -5,7 +5,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.annotation.Nullable;
 
-import com.example.home.opencvtest.charectorrecognition.opencvocr.CharactorActivity;
+import com.example.home.opencvtest.objectrecognition.ActivityObjectRecognition;
 
 public class MainActivity extends Activity {
     @Override
@@ -14,6 +14,6 @@ public class MainActivity extends Activity {
         setContentView(R.layout.activity_main);
 
 
-        startActivity(new Intent(this, CharactorActivity.class));
+        startActivity(new Intent(this, ActivityObjectRecognition.class));
     }
 }

@@ -122,6 +122,7 @@ public class ActivityObjectRecognition extends Activity implements CameraBridgeV
         mOpenCvCameraView.setCvCameraViewListener(this);
         tvName = (TextView) findViewById(R.id.text1);
 
+
     }
 
     @Override

@@ -22,7 +22,7 @@ public class NativeMarkerDetector {
         mNativeObj = 0;
     }
 
-    private native long nativeCreateObject(String nm1File, String nm2File);
+    public native long nativeCreateObject(String nm1File, String nm2File);
 
     private native void nativeFindMarkers(long thiz, long imageBgra, long transformations, float scale);
 
