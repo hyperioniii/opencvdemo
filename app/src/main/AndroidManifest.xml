@@ -20,6 +20,9 @@
         <activity android:name=".fillter.FillterActivity" />
         <activity android:name=".objectrecognition.ActivityObjectRecognition" />
         <activity android:name=".charectorrecognition.opencvocr.CharactorActivity" />
+        <activity android:name=".testone.FdActivity"/>
+
+
     </application>
     <!--  opencv permission  -->
     <supports-screens
